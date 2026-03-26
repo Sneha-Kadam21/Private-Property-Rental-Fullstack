@@ -5,7 +5,7 @@ import { FaArrowLeft } from "react-icons/fa"
 import { useNavigate } from "react-router-dom"
 import axios from "axios"
 
-import { authDataContext } from '../context/authContext'
+import { authDataContext } from '../context/AuthContext'
 import { userDataContext } from '../context/UserContext'
 
 function Login() {
