@@ -3,7 +3,7 @@ import { FaEye } from "react-icons/fa";
 import { FaEyeLowVision } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa";
 import {useNavigate} from "react-router-dom";
-import { authDataContext } from '../context/authContext';
+import { authDataContext } from '../context/AuthContext';
 import { useContext } from 'react';
 import { userDataContext } from '../context/UserContext';
 import axios from 'axios'

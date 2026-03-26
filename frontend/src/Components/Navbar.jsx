@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import axios from 'axios'
 import logo from "../../assets/airbnb-logo.png"
 
-import { authDataContext } from '../context/authContext'
+import { authDataContext } from '../context/AuthContext'
 import { userDataContext } from '../context/UserContext'
 import { useNavigate } from 'react-router-dom'
 
