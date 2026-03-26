@@ -20,7 +20,7 @@ app.use(cookieParser())
 app.use(cors({
   origin: [
     "http://localhost:5173",            // local
-    "https://your-app.vercel.app"       // 🔥 replace after deploy
+    "https://private-property-rental-fullstack-1.vercel.app"       // 🔥 replace after deploy
   ],
   credentials: true
 }))
